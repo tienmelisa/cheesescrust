@@ -1,0 +1,88 @@
+/* Color palette: Light beige: #FCF5E0; Brick red: #933C29; Orange: #E88309; Dark gray: #353535 */
+body { 
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+h1 {
+    color: #933C29;
+    font-family: 'Diplomata SC';
+    font-size: 40px;
+}
+
+h2 {
+    color: #933C29;
+    font-family: 'Oleo Script';
+    font-size: 40px;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    top: 5px;
+    margin: 0;
+}
+
+
+/* NAVBAR */
+
+li {
+    display: inline;
+    padding-right: 25px;
+}
+
+
+/* unvisited link */
+a:link {
+    color: #933C29;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #933C29;
+}
+
+/* mouse over link */
+a:hover {
+    color: #E88309;
+}
+
+.nav {
+    width: 300px; 
+    border: solid;
+    border-left-color: #933C29;
+    border-right-color: #933C29;
+    border-bottom-color: #933C29;
+    border-top-color: #933C29;
+    font-family: 'Oleo Script';
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    bottom: -100px;
+}
+
+
+/* PAGE CONTENT */
+
+.menu {
+    color: #353535;
+    font-family: 'Oleo Script';
+    font-size: 30px;
+    line-height: 100%;
+    position: relative;
+    text-align: center;
+    top: 25px;
+}
+
+.about {
+    color: #353535;
+    font-family: 'Oleo Script';
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    top: 70px;
+}
